@@ -186,6 +186,11 @@ public class MapPersisterTest {
    }
 
    @Test
+   public void testEmpty() {
+      testMapPersister(0, 0, 0, 0, 0, 0);
+   }
+
+   @Test
    public void testMapPersisterWithMix() {
       testMapPersister(19, 3, 7, 15, 35, 10);
    }
